@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cylcxiij83gxj"]
+
+[node name="MainScene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="HUD" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CrowsCount" type="Label" parent="HUD"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="MainMenu" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Play" type="Button" parent="MainMenu"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Credits" type="Button" parent="MainMenu"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Exit" type="Button" parent="MainMenu"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
